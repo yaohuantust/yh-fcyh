@@ -9,10 +9,10 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>yh_fcyh_controller</module>
+        <module>yh_fcyh_admin</module>
         <module>yh_fcyh_common</module>
         <module>yh_fcyh_services</module>
-        <module>yh_fcyh_generator</module>
+        <module>yh_fcyh_system</module>
     </modules>
 
     <properties>

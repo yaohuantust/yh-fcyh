@@ -1,0 +1,27 @@
+# 项目相关配置
+fcyh:
+  # 名称
+  name: Fcyh
+  # 验证码类型 math 数组计算 char 字符验证
+  captchaType: math
+
+server:
+  port: 8081
+
+spring:
+  application:
+    name: fcyh
+
+
+
+
+
+# token配置
+token:
+  # 令牌自定义标识
+  header: Authorization
+  # 令牌密钥
+  secret: abcdefghijklmnopqrstuvwxyz
+  # 令牌有效期（默认30分钟）
+  expireTime: 30
+
